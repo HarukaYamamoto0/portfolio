@@ -14,7 +14,7 @@
   --primary: #4eedae;
   --secondary: #1b160e;
 
-  --surface: #2b2933;
+  --surface: #0a0c0b;
   --accent: #44e4a5;
   --accent2: #156345;
 }
@@ -32,9 +32,14 @@ html {
   font-size: 62.5%;
   font-family: "Roboto Mono", monospace;
   overflow-x: hidden;
-  overflow-y: hidden;
   width: 100vw;
-  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -46,7 +51,14 @@ a {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 100vw;
   border-bottom: 2px solid var(--accent2);
+  background: var(--background);
 }
 
 .navbar {
@@ -75,8 +87,8 @@ a {
   justify-content: space-between;
   align-items: center;
   background: var(--background);
-   z-index: 1;
-   padding-right: 20px;
+  z-index: 1;
+  padding-right: 20px;
 }
 
 .nav-item {
@@ -104,6 +116,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 16px;
 }
 
 #title {
@@ -118,50 +131,11 @@ main {
   width: 100%;
   font-size: 1.3rem;
   text-align: center;
-   z-index: 0;
+  z-index: 0;
 }
 
 .accent {
   color: var(--accent);
-}
-
-#articles {
-  text-decoration: red wavy underline;
-  cursor: pointer;
-   z-index: 0;
-}
-
-[data-tooltip] {
-  position: relative;
-  cursor: pointer;
-}
-
-[data-tooltip]:before {
-  content: attr(data-tooltip);
-  position: absolute;
-  transition: all 0.7s ease;
-  right: -30px;
-  transform: translateX(-20px);
-  width: 120px;
-  opacity: 0;
- 
-  padding: 5px;
-  text-decoration: none;
-  bottom: -10px;
-  font-size: 0.9rem;
-  //font: 10px normal;
-  border: 1px solid var(--accent);
-  background: var(--surface);
-  color: var(--text);
-  border-radius: 5px;
-  //box-shadow: 3px 3px 3px grey;
-  visibility: hidden;
-}
-
-[data-tooltip]:hover:before {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(15px);
 }
 
 #main-btns-div {
@@ -181,6 +155,7 @@ main {
   border-radius: 30px;
   cursor: pointer;
   border: 2px solid var(--accent);
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
 }
 
 #btn-blog {
@@ -192,10 +167,58 @@ main {
   cursor: pointer;
   background-color: var(--accent);
   color: var(--background);
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
 }
 
+section {
+  margin: 10vh 20px;
+  border-radius: 7px;
+  width: 90%;
+  padding: 20px 10px;
+  background: var(--surface);
+  overflow: hidden;
+  align-items: center;
+  color: var(--text);
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
+}
 
+section > h1 {
+  font-size: 2rem;
+  color: var(--text);
+}
 
+.mouse-terminal {
+  height: 5px;
+  background-color: var(--text);
+  opacity: 1;
+  animation: fadeInOut 1.2s infinite;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+hr.rounded {
+  border-top: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+section > p {
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+#whoami {
+  margin-top: 60%;
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -209,8 +232,8 @@ main {
     border-radius: 10px 0px 0px 10px;
     text-align: center;
     padding: 0;
-    transition: all 0.7s ease;
-    box-shadow: 3px 3px 7px var(--accent);
+    transition: all 0.5s ease;
+    box-shadow: 3px 3px 7px var(--accent2);
   }
 
   .nav-logo {
@@ -228,7 +251,7 @@ main {
     padding-bottom: 7px;
     align-items: center;
   }
-  
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -245,8 +268,40 @@ main {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
 
-  main {
-    padding: 0 20px;
-  }
+footer {
+  left: 0;
+  bottom: 0;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  padding: 10px 5px;
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
+}
+
+footer > .footer-menu {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+footer > .footer-menu > .footer-item {
+  margin: 0 2.5rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#footer-divider {
+  border-radius: 5px;
+  margin: 10px 10px;
+  width: 90%;
+  background-image: linear-gradient(to right, transparent, gray, transparent);
+}
+
+footer > p {
+  font-size: 1.2rem;
 }

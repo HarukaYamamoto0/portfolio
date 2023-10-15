@@ -1,60 +1,91 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="shortcut icon" href="./assets/favicon.svg" />
-  <script
-    src="https://kit.fontawesome.com/0bf914e06d.js"
-    crossorigin="anonymous"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" />
+    <script
+      src="https://kit.fontawesome.com/0bf914e06d.js"
+      crossorigin="anonymous"
     ></script>
-  <title>HarukaYamamoto0 Blog</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="navbar">
-      <a href="#" class="nav-logo"
-        >HarukaYamamoto<span class="accent">0</span></a
-      >
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Blog</a>
+    <title>HarukaYamamoto0 Blog</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"
+          >HarukaYamamoto<span class="accent">0</span></a
+        >
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Github</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fa-solid fa-sun"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fa-solid fa-moon"></i></a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 id="title">WELCOME TO MY LITTLE <span class="accent">WORLD</span></h1>
+      <p id="subtitle">
+        Here, in addition to using it as a portfolio, I also use it to post my
+        articles.
+      </p>
+      <div id="main-btns-div">
+        <button id="btn-portfolio">Portfolio</button>
+        <button id="btn-blog">Blog</button>
+      </div>
+    </main>
+    <section id="whoami">
+      <h1>
+        <span class="accent">$</span> Whoami<span class="mouse-terminal"
+          >.</span
+        >
+      </h1>
+      <hr class="rounded" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus
+        ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum
+        condimentum.
+      </p>
+    </section>
+    <footer>
+      <ul class="footer-menu">
+        <li class="footer-item">
+          <a href="#Whoami" class="footer-link">Whoami</a>
         </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Github</a>
+        <li class="footer-item">
+          <a href="#" class="footer-link">Github</a>
         </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">About</a>
+        <li class="footer-item">
+          <a href="#" class="footer-link">About</a>
         </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fa-solid fa-sun"></i></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fa-solid fa-moon"></i></a>
+        <li class="footer-item">
+          <a href="#" class="footer-link">Contact</a>
         </li>
       </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <h1 id="title">WELCOME TO MY LITTLE <span class="accent">WORLD</span></h1>
-    <p id="subtitle">
-      Here, in addition to using it as a portfolio, I also use it to post my
-      <span class="tooltip" data-tooltip="It is still in the creation phase"><a id="articles" href="#" title="My Articles">articles</a>.</span>
-    </p>
-    <div id="main-btns-div">
-      <button id="btn-portfolio">Portfolio</button>
-      <button id="btn-blog">Blog</button>
-    </div>
-  </main>
-  <script src="./scripts.js"></script>
-</body>
+      <hr id="footer-divider" />
+      <p>&copy;2023 - HarukaYamamoto0</p>
+    </footer>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
