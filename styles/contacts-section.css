@@ -1,0 +1,5 @@
+#contacts a {
+  text-decoration: underline dotted gray;
+  font-family: "Roboto Mono", "Ubuntu Mono", monospace;
+  font-size: 1rem;
+}

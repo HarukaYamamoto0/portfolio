@@ -3,17 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="shortcut icon" href="./assets/favicon.svg" />
+
+    <!-- Primary Meta Tags -->
     <title>HarukaYamamoto0 Blog</title>
+    <meta name="title" content="HarukaYamamoto0 Blog" />
+    <meta
+      name="description"
+      content="Young Brazilian backend programmer, passionate about transforming coffee into lines of code. With a curious mind, he brings dynamic and efficient projects to life, demonstrating exceptional skills in software creation. My talent and passion for programming are reflected in every line of code." />
+    <meta name="author" content="HarukaYamamoto0" />
+    <meta
+      name="keywords"
+      content="Blog, HarukaYamamoto0, programming, javascript, html, css, android, Android-Studio" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://harukayamamoto0.github.io/portfolio/" />
+    <meta property="og:title" content="HarukaYamamoto0 Blog" />
+    <meta
+      property="og:description"
+      content="Young Brazilian backend programmer, passionate about transforming coffee into lines of code. With a curious mind, he brings dynamic and efficient projects to life, demonstrating exceptional skills in software creation. My talent and passion for programming are reflected in every line of code." />
+    <meta property="og:image" content="./assets/banner-for-meta-tags.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://harukayamamoto0.github.io/portfolio/" />
+    <meta property="twitter:title" content="HarukaYamamoto0 Blog" />
+    <meta
+      property="twitter:description"
+      content="Young Brazilian backend programmer, passionate about transforming coffee into lines of code. With a curious mind, he brings dynamic and efficient projects to life, demonstrating exceptional skills in software creation. My talent and passion for programming are reflected in every line of code." />
+    <meta property="twitter:image" content="./assets/banner-for-meta-tags.jpg" />
+
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main-section.css" />
+    <link rel="stylesheet" href="./styles/projects-section.css" />
+    <link rel="stylesheet" href="./styles/contacts-section.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="#" class="nav-logo">HarukaYamamoto<span class="accent">0</span> Blog</a>
+        <a href="#" class="nav-logo">HarukaYamamoto<span class="accent">0</span></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">Blog</a>
+            <a href="/blog" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
             <a href="https://github.com/HarukaYamamoto0" class="nav-link">Github</a>
@@ -22,7 +56,7 @@
             <a href="#aboutme" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contacts" class="nav-link">Contacts</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -47,8 +81,7 @@
       <hr class="rounded" />
       <p>
         Nice to meet you, my real name is Antônio Albert, but you can just call me Albert, I'm
-        <span class="accent" id="my-age"></span> (automatic calculation) old, I'm male and I'm a backend dev, I think
-        that's it for now.
+        <span class="accent" id="my-age"></span> old, I'm male and I'm a backend dev, I think that's it for now.
       </p>
     </section>
 
@@ -58,25 +91,25 @@
       <p>You can see below some recent projects I'm working on and the number of commits:</p>
       <ol id="latest-projects">
         <!-- <li>
-          <mark>HarukaYamamoto0/HarukaYamamoto0</mark>
-          <small class="accent">315</small>
-        </li>
-        <li>
-          <mark>HarukaYamamoto0/utility-bot</mark>
-          <small class="accent">301</small>
-        </li>
-        <li>
-          <mark>HarukaYamamoto0/jsonforenv</mark>
-          <small class="accent">292</small>
-        </li>
-        <li>
-          <mark>HarukaYamamoto0/html-css</mark>
-          <small class="accent">245</small>
-        </li>
-        <li>
-          <mark>memebotdev/MemeBot</mark>
-          <small class="accent">203</small>
-        </li> -->
+                <mark>HarukaYamamoto0/HarukaYamamoto0</mark>
+                <small class="accent">315</small>
+              </li>
+              <li>
+                <mark>HarukaYamamoto0/utility-bot</mark>
+                <small class="accent">301</small>
+              </li>
+              <li>
+                <mark>HarukaYamamoto0/jsonforenv</mark>
+                <small class="accent">292</small>
+              </li>
+              <li>
+                <mark>HarukaYamamoto0/html-css</mark>
+                <small class="accent">245</small>
+              </li>
+              <li>
+                <mark>memebotdev/MemeBot</mark>
+                <small class="accent">203</small>
+              </li> -->
       </ol>
     </section>
 
@@ -105,20 +138,26 @@
       </p>
     </section>
 
-    <section id="contact">
-      <h1><span class="accent">$</span> contact</h1>
+    <section id="contacts">
+      <h1><span class="accent">$</span> contacts</h1>
       <hr class="rounded" />
-      <p>
-        <span class="accent">Discord Username:</span>
-        <a href="https://discord.com/users/822819247146663936">albertthefluent</a><br />
-        <span class="accent">Email:</span> <a href="mailto:harukayamamotodev@gmail.com">harukayamamotodev@gmail.com</a
-        ><br />
-        <span class="accent">Github:</span> <a href="https://github.com/HarukaYamamoto0">github.com/HarukaYamamoto0</a>
-      </p>
+
+      <span class="accent">Discord Username:</span>
+      <a href="https://discord.com/users/822819247146663936">albertthefluent</a><br />
+      <span class="accent">Email:</span> <a href="mailto:harukayamamotodev@gmail.com">harukayamamotodev@gmail.com</a
+      ><br />
+      <span class="accent">Github:</span> <a href="https://github.com/HarukaYamamoto0">github.com/HarukaYamamoto0</a></br>
+      <span class="accent">Instagram:</span>
+      <a href="https://instagram.com/harukadev">@harukadev</a><br />
+      <span class="accent">Buy Me a Coffee:</span>
+      <a href="https://www.buymeacoffee.com/harukayamamoto0">harukayamamoto0</a><br />
     </section>
 
     <footer>
       <ul class="footer-menu">
+        <li class="footer-item">
+          <a href="/blog" class="footer-link">Blog</a>
+        </li>
         <li class="footer-item">
           <a href="#whoami" class="footer-link">Whoami</a>
         </li>
@@ -127,9 +166,6 @@
         </li>
         <li class="footer-item">
           <a href="#aboutme" class="footer-link">About Me</a>
-        </li>
-        <li class="footer-item">
-          <a href="#contact" class="footer-link">Contact</a>
         </li>
       </ul>
       <hr id="footer-divider" />
