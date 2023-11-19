@@ -5,36 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="shortcut icon" href="./assets/favicon.svg" />
-    <script
-      src="https://kit.fontawesome.com/0bf914e06d.js"
-      crossorigin="anonymous"
-    ></script>
     <title>HarukaYamamoto0 Blog</title>
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="#" class="nav-logo"
-          >HarukaYamamoto<span class="accent">0</span></a
-        >
+        <a href="#" class="nav-logo">HarukaYamamoto<span class="accent">0</span> Blog</a>
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="#" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Github</a>
+            <a href="https://github.com/HarukaYamamoto0" class="nav-link">Github</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
+            <a href="#aboutme" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"><i class="fa-solid fa-sun"></i></a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"><i class="fa-solid fa-moon"></i></a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -44,48 +32,110 @@
         </div>
       </nav>
     </header>
+
     <main>
       <h1 id="title">WELCOME TO MY LITTLE <span class="accent">WORLD</span></h1>
-      <p id="subtitle">
-        Here, in addition to using it as a portfolio, I also use it to post my
-        articles.
-      </p>
+      <p id="subtitle">Here, in addition to using it as a portfolio, I also use it to post my articles.</p>
       <div id="main-btns-div">
         <button id="btn-portfolio">Portfolio</button>
         <button id="btn-blog">Blog</button>
       </div>
     </main>
+
     <section id="whoami">
-      <h1>
-        <span class="accent">$</span> Whoami<span class="mouse-terminal"
-          >.</span
-        >
-      </h1>
+      <h1><span class="accent">$</span> whoami</h1>
       <hr class="rounded" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus
-        ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum
-        condimentum.
+        Nice to meet you, my real name is Antônio Albert, but you can just call me Albert, I'm
+        <span class="accent" id="my-age"></span> (automatic calculation) old, I'm male and I'm a backend dev, I think
+        that's it for now.
       </p>
     </section>
+
+    <section id="projects">
+      <h1><span class="accent">$</span> projects</h1>
+      <hr class="rounded" />
+      <p>You can see below some recent projects I'm working on and the number of commits:</p>
+      <ol id="latest-projects">
+        <!-- <li>
+          <mark>HarukaYamamoto0/HarukaYamamoto0</mark>
+          <small class="accent">315</small>
+        </li>
+        <li>
+          <mark>HarukaYamamoto0/utility-bot</mark>
+          <small class="accent">301</small>
+        </li>
+        <li>
+          <mark>HarukaYamamoto0/jsonforenv</mark>
+          <small class="accent">292</small>
+        </li>
+        <li>
+          <mark>HarukaYamamoto0/html-css</mark>
+          <small class="accent">245</small>
+        </li>
+        <li>
+          <mark>memebotdev/MemeBot</mark>
+          <small class="accent">203</small>
+        </li> -->
+      </ol>
+    </section>
+
+    <section id="aboutme">
+      <h1><span class="accent">$</span> aboutMe</h1>
+      <hr class="rounded" />
+      <p>
+        Hello again, it seems like you liked me, so I'll give you some information about myself:
+        <br /><br />
+        <span class="accent">Name:</span> Antonio Albert...<br />
+        <span class="accent">Date of birth:</span> 01/12/2005<br />
+        <span class="accent">Gender:</span> Masculine<br />
+        <span class="accent">Single:</span> Unfortunately yes<br />
+        <span class="accent">Location:</span> Teresina Piauí<br />
+        <br /><br />
+        I want to become a senior developer focused on app creation, but without abandoning the JavaScript ecosystem
+        because I really like my nodejs
+        <br /><br />
+        About my setup: <span class="accent">just a cell phone</span>, keyboard, mouse and an OTG cable. Yes,
+        unfortunately I program on my cell phone because I don't have money to buy a PC, it's complicated but that's
+        life, the learning curve for those who program on a cell phone is a straight line upwards, if you don't have the
+        willpower and focus to climb you will fall and give up. <br /><br />
+        I hope what I said was helpful in helping you understand more about what kind of person I am, but if you want to
+        get in touch with me to find out more, just see my contact details in the
+        <span class="accent">next section</span>:
+      </p>
+    </section>
+
+    <section id="contact">
+      <h1><span class="accent">$</span> contact</h1>
+      <hr class="rounded" />
+      <p>
+        <span class="accent">Discord Username:</span>
+        <a href="https://discord.com/users/822819247146663936">albertthefluent</a><br />
+        <span class="accent">Email:</span> <a href="mailto:harukayamamotodev@gmail.com">harukayamamotodev@gmail.com</a
+        ><br />
+        <span class="accent">Github:</span> <a href="https://github.com/HarukaYamamoto0">github.com/HarukaYamamoto0</a>
+      </p>
+    </section>
+
     <footer>
       <ul class="footer-menu">
         <li class="footer-item">
-          <a href="#Whoami" class="footer-link">Whoami</a>
+          <a href="#whoami" class="footer-link">Whoami</a>
         </li>
         <li class="footer-item">
-          <a href="#" class="footer-link">Github</a>
+          <a href="#projects" class="footer-link">Projects</a>
         </li>
         <li class="footer-item">
-          <a href="#" class="footer-link">About</a>
+          <a href="#aboutme" class="footer-link">About Me</a>
         </li>
         <li class="footer-item">
-          <a href="#" class="footer-link">Contact</a>
+          <a href="#contact" class="footer-link">Contact</a>
         </li>
       </ul>
       <hr id="footer-divider" />
-      <p>&copy;2023 - HarukaYamamoto0</p>
+      <p id="trademark">&copy;2023 - HarukaYamamoto0</p>
     </footer>
+
     <script src="./scripts.js"></script>
   </body>
 </html>
