@@ -2,11 +2,15 @@
 slug: first-post
 title: First Post
 authors: [HarukaYamamoto0]
+tags: [improvements]
+image: https://imgur.com/oWlwidl.jpg
 ---
 
 É pelo jeito esse é o meu primeiro post, não sei exatamente o que falar, ainda tô desenvolvendo o site, eu já havia deixado
 esse projeto a quasse 1 ano parado, mas recentemente eu comprei o dominio harukadev.com e pensei: porque eu já não aproveito
 e crio vergonha na cara e finalizo esse projeto, na verdade acho que to finalizando ele só para não ter que de fator programar.
+
+<!-- truncate -->
 
 É porque nesse ultimos dias eu começei a trabalhar em um call center e minha vida tá bem bagunçada agora, o pouco tempo
 que eu tenho para programar sempre acabava ou assistindo anime ou ir dormir, afinal eu chego bem tarde do trabalho, e sem

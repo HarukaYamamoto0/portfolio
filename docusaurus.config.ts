@@ -27,7 +27,23 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "pt-br"],
+    locales: ["en", "pt-BR"],
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+        calendar: "gregory",
+        path: "en",
+      },
+      "pt-BR": {
+        label: "Português",
+        direction: "ltr",
+        htmlLang: "pt-BR",
+        calendar: "gregory",
+        path: "pt-br",
+      },
+    },
   },
 
   presets: [
@@ -91,6 +107,11 @@ const config: Config = {
           label: "Blog",
           to: "/blog",
           position: "left",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+          queryString: "?persistLocale=true",
         },
         {
           href: "https://github.com/HarukaYamamoto0",
