@@ -1,0 +1,55 @@
+.section {
+  align-items: center;
+  margin: 5vh 20px;
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
+  border-radius: 7px;
+  background: var(--surface);
+  padding: 20px 10px;
+  width: 90%;
+  overflow: hidden;
+  color: var(--text);
+}
+
+.section>h1 {
+  color: var(--text);
+  position: relative;
+  font-size: 1.3rem;
+  left: 0;
+  width: auto;
+  top: 0;
+  font-family: "Ubuntu Mono", "Roboto Mono", monospace;
+}
+
+hr.rounded {
+  margin: 10px 0;
+  border-top: 1px solid gray;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.section>p {
+  color: var(--text);
+  font-size: 1rem;
+  font-family: "Ubuntu Mono", "Roboto Mono", monospace;
+}
+
+.section a {
+  text-decoration: underline dotted gray;
+  font-family: "Roboto Mono", "Ubuntu Mono", monospace;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.section a:hover {
+  color: var(--ifm-link-hover-color);
+}
+
+@media screen and (min-width: 768px) {
+  .section>h1 {
+    font-size: 1.3rem;
+  }
+
+  .section>p {
+    font-size: 1.3rem;
+  }
+}

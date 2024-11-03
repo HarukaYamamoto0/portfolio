@@ -1,0 +1,46 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+html,
+body {
+  background-color: var(--background);
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto Mono", monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+}
+
+hr.rounded {
+  margin: 10px 0;
+  border-top: 1px solid gray;
+  border-radius: 5px;
+  width: 80%;
+}
+
+section>p {
+  color: var(--text);
+  font-size: 1rem;
+  font-family: "Ubuntu Mono", "Roboto Mono", monospace;
+}
+
+@media screen and (min-width: 768px) {
+  section>h1 {
+    font-size: 1.3rem;
+  }
+
+  section>p {
+    font-size: 1.3rem;
+  }
+}

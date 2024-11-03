@@ -3,21 +3,46 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.body {
+  background-color: var(--background);
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto Mono", monospace;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+}
+
+.main_btns_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 6vh 0px 6vh 0px;
+}
+
+.main_btns {
+  cursor: pointer;
+  margin-right: 3vw;
+  box-shadow: rgb(38, 57, 77) 0px 22px 70px 4px;
+  border: 2px solid var(--accent);
+  border-radius: 30px;
+  background-color: var(--background);
+  width: 30vw;
+  height: 5vh;
+  color: var(--accent);
+  max-width: 250px;
+  max-height: 50px;
+  font-weight: bold;
+  font-size: 1rem;
 }

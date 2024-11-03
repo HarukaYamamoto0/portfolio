@@ -5,6 +5,13 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+/* * {
+  border: 1px solid #8a2be2;
+} */
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -15,6 +22,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --accent: #18e798;
+  --accent-secondary: #052c1d;
+  --ifm-footer-background-color: rgba(var(--background), 0.9);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +38,28 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --text: #d6d4d9;
+  --background: #020303;
+  --primary: #4eedae;
+  --secondary: #1b160e;
+  --surface: #0a0c0b;
+  --accent: #44e4a5;
+  --accent-secondary: #156345;
+  --padding-horizontal: 5vh;
+  --ifm-footer-background-color: rgba(var(--background), 0.9);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+
+.footer {
+  box-shadow: rgb(38, 57, 77) 0px 0px 30px 0px;
+  padding-bottom: 3vh;
+}
+
+.footer__copyright {
+  margin: 5vh 0px 0px 0px;
 }
