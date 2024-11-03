@@ -1,54 +1,54 @@
 improvements:
-  label: improvements
+  label: melhorias
   permalink: /improvements
-  description: Just website improvements.
+  description: Apenas melhorias no site.
 
 android:
   label: Android
   permalink: /android
-  description: All about Android app development, tips, and best practices.
+  description: Tudo sobre desenvolvimento de aplicativos Android, dicas e melhores práticas.
 
 compose:
   label: Compose
   permalink: /compose
-  description: Exploring Jetpack Compose for modern, reactive interfaces on Android.
+  description: Explorando o Jetpack Compose para interfaces modernas e reativas no Android.
 
 xml:
   label: XML
   permalink: /xml
-  description: Tutorials and tips on using XML for Android development, like layouts and resources.
+  description: Tutoriais e dicas sobre como usar XML para desenvolvimento Android, como layouts e recursos.
 
 kotlin:
   label: Kotlin
   permalink: /kotlin
-  description: Unlocking the power of Kotlin for Android developers with guides, tricks, and best practices.
+  description: Desbloqueando o poder do Kotlin para desenvolvedores Android com guias, truques e melhores práticas.
 
 backend:
   label: Backend
   permalink: /backend
-  description: Server and API structuring for apps, with a focus on backend integration.
+  description: Estruturação de servidores e APIs para aplicativos, com foco na integração de backend.
 
 nodejs:
   label: Node.js
   permalink: /nodejs
-  description: Articles on Node.js, including API development and Android integration.
+  description: Artigos sobre Node.js, incluindo desenvolvimento de APIs e integração com Android.
 
 ui-ux:
   label: UI/UX
   permalink: /ui-ux
-  description: Best practices and design for a great user experience in apps.
+  description: Melhores práticas e design para uma ótima experiência do usuário em aplicativos.
 
 performance:
   label: Performance
   permalink: /performance
-  description: Techniques for optimizing Android app performance.
+  description: Técnicas para otimizar o desempenho de aplicativos Android.
 
 security:
-  label: Security
+  label: Segurança
   permalink: /security
-  description: Safeguarding data and users, security tips for Android developers.
+  description: Protegendo dados e usuários, dicas de segurança para desenvolvedores Android.
 
 javascript:
   label: JavaScript
   permalink: /javascript
-  description: Developing scripts and extra functionalities for Android and backend integrations.
+  description: Desenvolvimento de scripts e funcionalidades extras para integrações Android e backend.

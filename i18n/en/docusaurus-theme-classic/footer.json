@@ -1,0 +1,58 @@
+{
+  "link.title.Projects": {
+    "message": "Projects",
+    "description": "The title of the footer links column with title=Projects in the footer"
+  },
+  "link.title.My Social Networks": {
+    "message": "My Social Networks",
+    "description": "The title of the footer links column with title=My Social Networks in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.TabNews": {
+    "message": "TabNews",
+    "description": "The label of footer link with label=TabNews linking to https://www.tabnews.com.br/HarukaYamamoto0"
+  },
+  "link.item.label.Basner": {
+    "message": "Basner",
+    "description": "The label of footer link with label=Basner linking to https://github.com/HarukaYamamoto0/Basner"
+  },
+  "link.item.label.Locart": {
+    "message": "Locart",
+    "description": "The label of footer link with label=Locart linking to https://github.com/HarukaYamamoto0/locart"
+  },
+  "link.item.label.Merope": {
+    "message": "Merope",
+    "description": "The label of footer link with label=Merope linking to https://github.com/HarukaYamamoto0/Merope"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.com/users/822819247146663936"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:harukayamamotodev@gmail.com"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/in/harukayamamoto0"
+  },
+  "link.item.label.Portfolio": {
+    "message": "Portfolio",
+    "description": "The label of footer link with label=Portfolio linking to /portfolio"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/HarukaYamamoto0/"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 HarukaYamamoto0, Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

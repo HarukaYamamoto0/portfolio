@@ -5,7 +5,7 @@ import { stripIndent } from "common-tags";
 
 const config: Config = {
   title: "HarukaYamamoto0 Blog",
-  tagline: "",
+  tagline: "I'm just a programmer in search of my evolution",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -26,22 +26,20 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "pt-BR"],
+    defaultLocale: "pt-br",
+    locales: ["en", "pt-br"],
     localeConfigs: {
       en: {
         label: "English",
         direction: "ltr",
         htmlLang: "en-US",
         calendar: "gregory",
-        path: "en",
       },
-      "pt-BR": {
+      "pt-br": {
         label: "Português",
         direction: "ltr",
-        htmlLang: "pt-BR",
+        htmlLang: "pt-br",
         calendar: "gregory",
-        path: "pt-br",
       },
     },
   },
@@ -168,8 +166,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Portifolio",
-              to: "/portifolio",
+              label: "Portfolio",
+              to: "/portfolio",
             },
             {
               label: "Blog",
@@ -192,7 +190,7 @@ const config: Config = {
   customFields: {
     nickname: "HarukaYamamoto0",
     meta: {
-      title: "HarukaYamamoto0",
+      title: "HarukaYamamoto0 - haruka.dev",
       description: stripIndent`
       I'm just a programmer looking to evolve.
       Check out my website to see my blog, portfolio and other cool stuff`,

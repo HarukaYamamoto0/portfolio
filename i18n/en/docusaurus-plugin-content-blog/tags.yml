@@ -1,0 +1,54 @@
+improvements:
+  label: improvements
+  permalink: /improvements
+  description: Just website improvements.
+
+android:
+  label: Android
+  permalink: /android
+  description: All about Android app development, tips, and best practices.
+
+compose:
+  label: Compose
+  permalink: /compose
+  description: Exploring Jetpack Compose for modern, reactive interfaces on Android.
+
+xml:
+  label: XML
+  permalink: /xml
+  description: Tutorials and tips on using XML for Android development, like layouts and resources.
+
+kotlin:
+  label: Kotlin
+  permalink: /kotlin
+  description: Unlocking the power of Kotlin for Android developers with guides, tricks, and best practices.
+
+backend:
+  label: Backend
+  permalink: /backend
+  description: Server and API structuring for apps, with a focus on backend integration.
+
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: Articles on Node.js, including API development and Android integration.
+
+ui-ux:
+  label: UI/UX
+  permalink: /ui-ux
+  description: Best practices and design for a great user experience in apps.
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: Techniques for optimizing Android app performance.
+
+security:
+  label: Security
+  permalink: /security
+  description: Safeguarding data and users, security tips for Android developers.
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: Developing scripts and extra functionalities for Android and backend integrations.

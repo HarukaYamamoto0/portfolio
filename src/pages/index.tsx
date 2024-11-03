@@ -1,22 +1,29 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-
 import styles from "./index.module.css";
 import Section from "../components/Section/Section";
+import Translate from "@docusaurus/Translate";
+import { ICustomFields } from "../interfaces/ICustomFields";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+  const { meta } = siteConfig.customFields as ICustomFields;
 
   return (
-    <Layout title="HomePage" description="">
+    <Layout title="Homepage" description={meta.description}>
       <div className={styles.body}>
         <main className={styles.main}>
           <h1 id="title">
-            WELCOME TO MY LITTLE <span className="accent">WORLD</span>
+            <Translate>BEM-VINDO AO MEU PEQUENO</Translate>{" "}
+            <span className="accent">
+              <Translate>MUNDO</Translate>
+            </span>
           </h1>
           <p id="subtitle">
-            Here, in addition to using it as a portfolio, I also use it to post
-            my articles.
+            <Translate>
+              Aqui, além de usá-lo como portfólio, também o uso para postar meus
+              artigos.
+            </Translate>
           </p>
           <div className={styles.main_btns_container}>
             <button className={styles.main_btns}>Portfolio</button>
@@ -26,35 +33,55 @@ export default function Home(): JSX.Element {
 
         <Section title="whoami">
           <div>
-            Nice to meet you, my real name is Antônio Albert. I'm an Android
-            Developer passionate about building mobile applications that enhance
-            people's lives.
+            <Translate>
+              Prazer em conhecê-lo, meu nome verdadeiro é Antônio Albert. Sou um
+              desenvolvedor Android apaixonado por criar aplicativos móveis que
+              melhorem a vida das pessoas.
+            </Translate>
           </div>
         </Section>
 
-        <Section title="about me">
+        <Section title="aboutMe">
           <div>
-            Hello again, it seems like you’re interested to know more, so here’s
-            a bit more about me:
+            <Translate>
+              Olá novamente, parece que você está interessado em saber mais,
+              então aqui vai um pouco mais sobre mim:
+            </Translate>
             <br />
             <br />
-            <span className="accent">Name:</span> Antonio Albert
+            <span className="accent">
+              <Translate>Nome:</Translate>
+            </span>{" "}
+            Antonio Albert
             <br />
-            <span className="accent">Date of Birth:</span> 01/12/2005
+            <span className="accent">
+              <Translate>Data de nascimento:</Translate>
+            </span>{" "}
+            01/12/2005
             <br />
-            <span className="accent">Location:</span> Teresina, Piauí, Brazil
+            <span className="accent">
+              <Translate>Onde moro:</Translate>
+            </span>{" "}
+            Teresina, Piauí, Brazil
             <br />
             <br />
-            My goal is to become a senior developer specializing in app
-            development while staying rooted in the JavaScript ecosystem. I love
-            creating tools that make life easier and push the boundaries of
-            technology with every project.
+            <Translate>
+              Meu objetivo é me tornar um desenvolvedor sênior especializado em
+              desenvolvimento de aplicativos, mantendo-me enraizado no
+              ecossistema JavaScript. Adoro criar ferramentas que tornam a vida
+              mais fácil e expandem os limites da tecnologia em cada projeto.
+            </Translate>
           </div>
         </Section>
 
         <Section title="skills">
           <div>
-            <p>Below are some of the technologies and tools I work with:</p>
+            <p>
+              <Translate>
+                Abaixo estão algumas das tecnologias e ferramentas com as quais
+                trabalho:
+              </Translate>
+            </p>
             <ul className={styles.skillsList}>
               <li>JavaScript & TypeScript</li>
               <li>React & React Native</li>
@@ -68,26 +95,39 @@ export default function Home(): JSX.Element {
 
         <Section title="projects">
           <div>
-            Here are a few projects I’m currently working on:
+            <Translate>
+              Aqui estão alguns projetos nos quais estou trabalhando atualmente:
+            </Translate>
             <ul className={styles.projectsList}>
               <li>
-                <strong>TabNews Client:</strong> A mobile client for TabNews,
-                created as a study project.
+                <strong>TabNews Client:</strong>{" "}
+                <Translate>
+                  Um cliente mobile para o TabNews, criado como um projeto de
+                  estudo.
+                </Translate>
               </li>
               <li>
-                <strong>Basner:</strong> This project will continue later, I
-                will come back to it before the year is out, it will be a very
-                interesting project.
+                <strong>Basner:</strong>{" "}
+                <Translate>
+                  Este projeto continuará mais tarde, retornarei a ele antes do
+                  fim do ano, será um projeto muito interessante.
+                </Translate>
               </li>
               <li>
-                <strong>Locart:</strong> A powerful self-hosted image server!
+                <strong>Locart:</strong>{" "}
+                <Translate>
+                  Um poderoso servidor de imagens self-hosted!
+                </Translate>
               </li>
               <li>
-                <strong>Merope:</strong> A cloud environment variable loader,
-                increase your application security with Merope!
+                <strong>Merope:</strong>{" "}
+                <Translate>
+                  Um carregador de variáveis ​​de ambiente de nuvem, aumente a
+                  segurança do seu aplicativo com Merope!
+                </Translate>
               </li>
             </ul>
-            See more in{" "}
+            <Translate>Veja mais em: </Translate>{" "}
             <a href="https://github.com/HarukaYamamoto0#todo-list-">
               Todo List 📚
             </a>
@@ -96,7 +136,12 @@ export default function Home(): JSX.Element {
 
         <Section title="contacts">
           <div>
-            <p>If you’d like to get in touch, feel free to reach out:</p>
+            <p>
+              <Translate>
+                Se você quiser entrar em contato, sinta-se à vontade para entrar
+                em contato:
+              </Translate>
+            </p>
             <p>
               <span className="accent">Discord Username:</span>{" "}
               <a href="https://discord.com/users/822819247146663936">
