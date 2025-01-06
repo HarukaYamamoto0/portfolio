@@ -16,11 +16,18 @@
 }
 
 .main {
+  padding: 20px 10px;
+  width: 90%;
+  overflow: hidden;
+  align-items: center;
+  margin: 5vh 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 25vh;
+  text-align: center;
+  height: 60vh;
 }
 
 .main_btns_container {
