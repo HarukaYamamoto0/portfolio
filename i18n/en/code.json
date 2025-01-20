@@ -366,5 +366,14 @@
   "theme.blog.author.noPosts": {
     "message": "This author has not written any posts yet.",
     "description": "The text for authors with 0 blog post"
+  },
+  "Ver no GitHub": {
+    "message": "View on GitHub"
+  },
+  "MEUS PROJETINHOS": {
+    "message": "MY LITTLE PROJECTS"
+  },
+  "Meus principais projetos direto do github": {
+    "message": "My main projects straight from github"
   }
 }

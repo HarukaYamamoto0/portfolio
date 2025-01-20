@@ -1,10 +1,10 @@
-export interface Repo {
+export interface IRepo {
   id: number;
   node_id: string;
   name: string;
   full_name: string;
   private: boolean;
-  owner: Owner;
+  owner: IOwner;
   html_url: string;
   description?: string;
   fork: boolean;
@@ -68,7 +68,7 @@ export interface Repo {
   archived: boolean;
   disabled: boolean;
   open_issues_count: number;
-  license?: License;
+  license?: ILicense;
   allow_forking: boolean;
   is_template: boolean;
   web_commit_signoff_required: boolean;
@@ -80,7 +80,7 @@ export interface Repo {
   default_branch: string;
 }
 
-export interface Owner {
+export interface IOwner {
   login: string;
   id: number;
   node_id: string;
@@ -102,7 +102,7 @@ export interface Owner {
   site_admin: boolean;
 }
 
-export interface License {
+export interface ILicense {
   key: string;
   name: string;
   spdx_id: string;

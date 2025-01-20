@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import styles from "./ProjectCard.module.css";
+import Translate from "@docusaurus/Translate";
 
 interface IProjectCardOptions {
   name: string;
@@ -26,7 +27,7 @@ const ProjectCard: FC<IProjectCardOptions> = ({
       ))}
     </div>
     <a href={source} target="_blank" rel="noopener noreferrer">
-      Ver no GitHub
+      <Translate>Ver no GitHub</Translate>
     </a>
   </div>
 );
