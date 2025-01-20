@@ -31,10 +31,11 @@ main {
 
 .title {
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 10vh;
 }
 
 .projectGrid {
+  margin-top: 7vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
