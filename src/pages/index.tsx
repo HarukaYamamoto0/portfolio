@@ -3,7 +3,8 @@ import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 import Section from "../components/Section/Section";
 import Translate from "@docusaurus/Translate";
-import { ICustomFields } from "../interfaces/ICustomFields";
+import type { ICustomFields } from "../interfaces/ICustomFields";
+import type { JSX } from "react";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -26,7 +27,9 @@ export default function Home(): JSX.Element {
             </Translate>
           </p>
           <div className={styles.main_btns_container}>
-            <button className={styles.main_btns}>Portfolio</button>
+            {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+            <button className={styles.main_btns}>Projetos</button>
+            {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
             <button className={styles.main_btns}>Blog</button>
           </div>
         </main>

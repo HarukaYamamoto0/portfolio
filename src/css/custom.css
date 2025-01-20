@@ -23,8 +23,10 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
+  --text: #27232c;
+  --on-text: #fefeffc0;
   --accent: #18e798;
-  --accent-secondary: #052c1d;
+  --accent-secondary: #156345;
   --ifm-footer-background-color: rgba(var(--background), 0.9);
 }
 
@@ -40,6 +42,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --text: #d6d4d9;
+  --on-text: #d6d4d9;
   --background: #020303;
   --primary: #4eedae;
   --secondary: #1b160e;
@@ -48,6 +51,10 @@
   --accent-secondary: #156345;
   --padding-horizontal: 5vh;
   --ifm-footer-background-color: rgba(var(--background), 0.9);
+}
+
+* {
+  font-family: "Ubuntu Mono", "Roboto Mono", monospace;
 }
 
 .accent {

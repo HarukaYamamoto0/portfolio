@@ -180,7 +180,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2024 HarukaYamamoto0, Built with Docusaurus.`,
+      copyright: "Copyright © 2024 HarukaYamamoto0, Built with Docusaurus.",
     },
     prism: {
       theme: prismThemes.github,

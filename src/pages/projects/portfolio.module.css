@@ -19,28 +19,23 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 25vh;
+  margin-top: 7vh;
+  margin-bottom: 15vh;
 }
 
-hr.rounded {
-  margin: 10px 0;
-  border-top: 1px solid gray;
-  border-radius: 5px;
-  width: 80%;
-}
-
-section>p {
-  color: var(--text);
-  font-size: 1rem;
+.container {
   font-family: "Ubuntu Mono", "Roboto Mono", monospace;
+  color: var(--text);
+  padding: 1rem;
 }
 
-@media screen and (min-width: 768px) {
-  section>h1 {
-    font-size: 1.3rem;
-  }
+.title {
+  text-align: center;
+  margin: 2rem 0;
+}
 
-  section>p {
-    font-size: 1.3rem;
-  }
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
 }

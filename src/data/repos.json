@@ -1,0 +1,104 @@
+[
+  {
+    "name": "tabnews-app",
+    "description": "A client for TabNews, as faithful as possible to the original design",
+    "url": "https://github.com/HarukaYamamoto0/tabnews-app",
+    "stars": 2,
+    "topics": [
+      "felipe-deschamps",
+      "jetpack-compose",
+      "kotlin-android",
+      "portfolio",
+      "study-project",
+      "tabnews"
+    ]
+  },
+  {
+    "name": "Basner",
+    "description": "This project will continue later, I will come back to it before the year is out, it will be a very interesting project.",
+    "url": "https://github.com/HarukaYamamoto0/Basner",
+    "stars": 1,
+    "topics": [
+      "css",
+      "electron",
+      "html",
+      "portfolio"
+    ]
+  },
+  {
+    "name": "CryptoTracker",
+    "description": "CryptoTracker is an Android app for real-time cryptocurrency tracking, built with a focus on best architectural practices and inspired by Philipp Lackner's course, \"The Best Practice Guide to Android Architecture.\"",
+    "url": "https://github.com/HarukaYamamoto0/CryptoTracker",
+    "stars": 1,
+    "topics": [
+      "canvas",
+      "graph",
+      "jetpack-compose",
+      "portfolio"
+    ]
+  },
+  {
+    "name": "jsonforenv",
+    "description": "a json reader for env",
+    "url": "https://github.com/HarukaYamamoto0/jsonforenv",
+    "stars": 1,
+    "topics": [
+      "dotenv",
+      "env",
+      "jsonforenv",
+      "portfolio"
+    ]
+  },
+  {
+    "name": "Linko",
+    "description": "A link shortener in the palm of your hand",
+    "url": "https://github.com/HarukaYamamoto0/Linko",
+    "stars": 1,
+    "topics": [
+      "app",
+      "compose",
+      "kotlin",
+      "mobile",
+      "portfolio",
+      "url-shortener"
+    ]
+  },
+  {
+    "name": "Luminit",
+    "description": "A simple tray-based application for controlling screen brightness on Linux.",
+    "url": "https://github.com/HarukaYamamoto0/Luminit",
+    "stars": 1,
+    "topics": [
+      "brightness-control",
+      "electron",
+      "portfolio",
+      "tray-menu"
+    ]
+  },
+  {
+    "name": "solid-typescript",
+    "description": "This project is a API using Node.js, TypeScript, and SOLID principles, based on Rocketseat's Code/Drops #44.",
+    "url": "https://github.com/HarukaYamamoto0/solid-typescript",
+    "stars": 0,
+    "topics": [
+      "codedrops",
+      "nodejs",
+      "portfolio",
+      "rocketseat",
+      "solid",
+      "typescript"
+    ]
+  },
+  {
+    "name": "timestamp-converter",
+    "description": "A simple timestamp converter ",
+    "url": "https://github.com/HarukaYamamoto0/timestamp-converter",
+    "stars": 0,
+    "topics": [
+      "portfolio",
+      "simplistic",
+      "timestamp-convert",
+      "timestamps"
+    ]
+  }
+]
