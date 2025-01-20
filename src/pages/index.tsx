@@ -29,11 +29,13 @@ export default function Home(): JSX.Element {
           </p>
           <div className={styles.main_btns_container}>
             <Link to="/projects">
+              {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
               <button className={styles.main_btns}>
                 <Translate>Projetos</Translate>
               </button>
             </Link>
             <Link to="/blog">
+              {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
               <button className={styles.main_btns}>
                 <Translate>Blog</Translate>
               </button>
