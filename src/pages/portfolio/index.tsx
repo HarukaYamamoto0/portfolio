@@ -5,6 +5,7 @@ import styles from "./portfolio.module.css";
 import ProjectCard from "@site/src/components/ProjectCard/ProjectCard";
 
 import repos from "../../data/repos.json";
+import type { JSX } from "react";
 
 export default function Projects(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
