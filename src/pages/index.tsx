@@ -5,6 +5,7 @@ import Section from "../components/Section/Section";
 import Translate from "@docusaurus/Translate";
 import type { ICustomFields } from "../interfaces/ICustomFields";
 import type { JSX } from "react";
+import Link from "@docusaurus/Link";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -27,29 +28,28 @@ export default function Home(): JSX.Element {
             </Translate>
           </p>
           <div className={styles.main_btns_container}>
-            {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-            <button className={styles.main_btns}>Projetos</button>
-            {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-            <button className={styles.main_btns}>Blog</button>
+            <Link to="/projects">
+              <button className={styles.main_btns}>
+                <Translate>Projetos</Translate>
+              </button>
+            </Link>
+            <Link to="/blog">
+              <button className={styles.main_btns}>
+                <Translate>Blog</Translate>
+              </button>
+            </Link>
           </div>
         </main>
 
         <Section title="whoami">
           <div>
-            <Translate>
-              Prazer em conhecê-lo, meu nome verdadeiro é Antônio Albert. Sou um
-              desenvolvedor Android apaixonado por criar aplicativos móveis que
-              melhorem a vida das pessoas.
-            </Translate>
+            <Translate>whoami</Translate>
           </div>
         </Section>
 
         <Section title="aboutMe">
           <div>
-            <Translate>
-              Olá novamente, parece que você está interessado em saber mais,
-              então aqui vai um pouco mais sobre mim:
-            </Translate>
+            <Translate>aboutMe</Translate>
             <br />
             <br />
             <span className="accent">
@@ -86,11 +86,11 @@ export default function Home(): JSX.Element {
               </Translate>
             </p>
             <ul className={styles.skillsList}>
-              <li>JavaScript & TypeScript</li>
-              <li>React & React Native</li>
-              <li>Node.js</li>
               <li>Android Development</li>
+              <li>Node.js</li>
               <li>Git & GitHub</li>
+              <li>JavaScript & TypeScript</li>
+              <li>Electron & React</li>
               <li>HTML & CSS</li>
             </ul>
           </div>
@@ -117,9 +117,9 @@ export default function Home(): JSX.Element {
                 </Translate>
               </li>
               <li>
-                <strong>Locart:</strong>{" "}
+                <strong>Luminit:</strong>{" "}
                 <Translate>
-                  Um poderoso servidor de imagens self-hosted!
+                  Um controlador de brilho estilo Tray para Linux
                 </Translate>
               </li>
               <li>

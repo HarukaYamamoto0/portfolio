@@ -93,12 +93,12 @@ const config: Config = {
       title: "HarukaYamamoto0",
       logo: {
         alt: "My Site",
-        src: "img/logo.svg",
+        src: "img/cube.svg",
       },
       items: [
         {
-          label: "Portfolio",
-          to: "/portfolio",
+          label: "Projects",
+          to: "/projects",
           position: "left",
         },
         {
@@ -132,8 +132,8 @@ const config: Config = {
               href: "https://github.com/HarukaYamamoto0/Basner",
             },
             {
-              label: "Locart",
-              href: "https://github.com/HarukaYamamoto0/locart",
+              label: "Luminit",
+              href: "https://github.com/HarukaYamamoto0/Luminit",
             },
             {
               label: "Merope",
@@ -166,8 +166,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Portfolio",
-              to: "/portfolio",
+              label: "Projects",
+              to: "/projects",
             },
             {
               label: "Blog",
