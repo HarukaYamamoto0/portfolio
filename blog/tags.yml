@@ -3,6 +3,16 @@ improvements:
   permalink: /improvements
   description: Apenas melhorias no site.
 
+articles:
+  label: articles
+  permalink: /article
+  description: Artigos que eu escrevo
+
+posts:
+  label: posts
+  permalink: /posts
+  description: Posts que eu escrevo
+
 android:
   label: Android
   permalink: /android
