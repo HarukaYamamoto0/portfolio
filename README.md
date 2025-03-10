@@ -1,5 +1,5 @@
 # My Tech Blog
-
+ 
 Welcome to my tech blog, where I share insights, tutorials, and tips on Android development, backend programming, and much more! Whether you're a beginner or an experienced developer, there's something here for everyone.
 
 ## Table of Contents
