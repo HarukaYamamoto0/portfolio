@@ -29,18 +29,6 @@ By using this app, you agree not to:
 - Damage the app’s systems or introduce malware.  
 
 ### 7. Changes & Acceptance  
-Continued use of the app constitutes acceptance of this policy. For questions, contact us at [Your Contact Email].  
-
----
-
-**Key Modifications for App Context:**  
-1. **Removed website-specific clauses**:  
-   - Deleted all references to "websites," "cookies," "Google AdSense," and "affiliate tracking" (these are web-only features).  
-2. **Simplified data practices**:  
-   - Focused on app functionality (no mention of advertising SDKs like AdMob, as the original policy didn’t require them).  
-3. **User responsibilities**:  
-   - Updated "website misuse" to "app misuse" (e.g., malware, illegal content).  
-4. **Clarity**:  
-   - Explicitly stated the policy applies **only to the app**.  
+Continued use of the app constitutes acceptance of this policy. For questions, contact us at harukayamamotodev@gmail.com.  
 
 **Effective Date**: June 30, 2025, 11:04 UTC.
