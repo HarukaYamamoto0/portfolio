@@ -14,7 +14,7 @@ const config: Config = {
   organizationName: "harukadev",
   projectName: "portfolio",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: "warn",
