@@ -2,7 +2,7 @@
 title: 📥 How to Install JetBrains Toolbox on Linux Mint (or Any Ubuntu-Based Distro)
 description: A simple and reliable guide to installing and running JetBrains Toolbox on Linux Mint, Ubuntu, or any Debian-based distro — without breaking it after setup.
 date: 2025-08-25T10:02:24
-tags: [linux, jetbrains, tools, ubuntu, tutorial]
+tags: [linux, jetpack-compose, tools, ubuntu, tutorial, compose, backend]
 image: /img/posts/how-to-install-jetbrains-toolbox-on-linux-mint/capa.webp
 authors: [HarukaYamamoto0]
 slug: how-to-install-jetbrains-toolbox-on-linux-mint
