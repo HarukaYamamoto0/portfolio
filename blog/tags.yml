@@ -1,79 +1,169 @@
-jetpack-compose:
-  label: jetpack-compose
-  permalink: /jetpack-compose
-  description: jetpack compose
-
-backend:
-  label: backend
-  permalink: /backend
-  description: backend.
-
-linux:
-  label: linux
-  permalink: /linux
-  description: linux.
-
-melhorias:
-  label: melhorias
-  permalink: /improvements
-  description: Apenas melhorias no site.
-
-ktor:
-  label: ktor
-  permalink: /ktor
-  description: Apenas melhorias no site.
-
-articles:
-  label: articles
-  permalink: /article
-  description: Artigos que eu escrevo
-
-posts:
-  label: posts
-  permalink: /posts
-  description: Posts que eu escrevo
-
 android:
   label: Android
   permalink: /android
-  description: Tudo sobre desenvolvimento de aplicativos Android, dicas e melhores práticas.
+  description: Android app development, tips, and best practices
+
+jetpack-compose:
+  label: Jetpack Compose
+  permalink: /jetpack-compose
+  description: Modern and reactive Android UI development with Jetpack Compose
 
 compose:
   label: Compose
   permalink: /compose
-  description: Explorando o Jetpack Compose para interfaces modernas e reativas no Android.
+  description: Tutorials and practical examples using Jetpack Compose
 
 xml:
   label: XML
   permalink: /xml
-  description: Tutoriais e dicas sobre como usar XML para desenvolvimento Android, como layouts e recursos.
+  description: Using XML in Android development, including layouts and resources
 
 kotlin:
   label: Kotlin
   permalink: /kotlin
-  description: Desbloqueando o poder do Kotlin para desenvolvedores Android com guias, truques e melhores práticas.
+  description: Kotlin language for Android and backend development, with guides and best practices
+
+ktor:
+  label: Ktor
+  permalink: /ktor
+  description: Kotlin backend framework for building modern APIs
+
+backend:
+  label: Backend
+  permalink: /backend
+  description: Server and API development, integration with Android
 
 nodejs:
   label: Node.js
   permalink: /nodejs
-  description: Artigos sobre Node.js, incluindo desenvolvimento de APIs e integração com Android.
+  description: Articles on Node.js, API development, and Android integration
 
 ui-ux:
   label: UI/UX
   permalink: /ui-ux
-  description: Melhores práticas e design para uma ótima experiência do usuário em aplicativos.
+  description: Best practices and design for a great user experience in apps
 
 performance:
   label: Performance
   permalink: /performance
-  description: Técnicas para otimizar o desempenho de aplicativos Android.
+  description: Techniques for optimizing Android app performance
 
 security:
-  label: Segurança
+  label: Security
   permalink: /security
-  description: Protegendo dados e usuários, dicas de segurança para desenvolvedores Android.
+  description: Protecting user data and improving Android app security
 
 javascript:
   label: JavaScript
   permalink: /javascript
-  description: Desenvolvimento de scripts e funcionalidades extras para integrações Android e backend.
+  description: JavaScript development for backend integrations and Android enhancements
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Tips, tools, and tutorials for Linux developers
+
+improvements:
+  label: Improvements
+  permalink: /improvements
+  description: Site and project improvements, tweaks, and updates
+
+articles:
+  label: Articles
+  permalink: /articles
+  description: Articles written about Android, backend, and development topics
+
+posts:
+  label: Posts
+  permalink: /posts
+  description: Personal posts, thoughts, and development experiences
+
+data-structures:
+  label: Data Structures
+  permalink: /data-structures
+  description: Concepts and implementations of data structures such as lists, stacks, queues, trees, and graphs
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: General programming guides, algorithms, and code examples
+
+fundamentals:
+  label: Fundamentals
+  permalink: /fundamentals
+  description: Core programming and computer science concepts explained clearly
+
+dual-boot:
+  label: Dual Boot
+  permalink: /dual-boot
+  description: Guides and fixes related to managing multiple operating systems on the same machine.
+
+troubleshooting:
+  label: Troubleshooting
+  permalink: /troubleshooting
+  description: Solutions and practical fixes for common system and development issues.
+
+grub:
+  label: GRUB
+  permalink: /grub
+  description: Customization, fixes, and configuration tips for the GRUB bootloader.
+
+secure-boot:
+  label: Secure Boot
+  permalink: /secure-boot
+  description: Guides and fixes involving Secure Boot, UEFI, and system compatibility.
+
+jetbrains:
+  label: JetBrains
+  permalink: /jetbrains
+  description: Tips, tools, and installation guides for JetBrains IDEs and utilities.
+
+tools:
+  label: Tools
+  permalink: /tools
+  description: Useful development tools and utilities for improving workflow and productivity.
+
+ubuntu:
+  label: Ubuntu
+  permalink: /ubuntu
+  description: Articles and guides for Ubuntu and other Debian-based Linux distributions.
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step tutorials covering development, configuration, and setup topics.
+
+wifi:
+  label: WiFi
+  permalink: /wifi
+  description: Networking and connectivity guides, including WiFi debugging and setup.
+
+adb:
+  label: ADB
+  permalink: /adb
+  description: Android Debug Bridge guides and troubleshooting for developers.
+
+android-studio:
+  label: Android Studio
+  permalink: /android-studio
+  description: Tutorials, fixes, and setup guides for Android Studio and Android development.
+
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Tips, tools, and workflows to boost developer productivity and efficiency.
+
+zsh:
+  label: Zsh
+  permalink: /zsh
+  description: Customization, plugins, and guides for improving your Zsh shell experience.
+
+customization:
+  label: Customization
+  permalink: /customization
+  description: Articles about personalizing and optimizing development environments or Linux setups.
+
+themes:
+  label: Themes
+  permalink: /themes
+  description: Visual customization and theming for terminals, editors, and Linux desktops.
