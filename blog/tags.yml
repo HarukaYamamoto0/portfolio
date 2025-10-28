@@ -1,0 +1,79 @@
+jetpack-compose:
+  label: jetpack-compose
+  permalink: /jetpack-compose
+  description: jetpack compose
+
+backend:
+  label: backend
+  permalink: /backend
+  description: backend.
+
+linux:
+  label: linux
+  permalink: /linux
+  description: linux.
+
+melhorias:
+  label: melhorias
+  permalink: /improvements
+  description: Apenas melhorias no site.
+
+ktor:
+  label: ktor
+  permalink: /ktor
+  description: Apenas melhorias no site.
+
+articles:
+  label: articles
+  permalink: /article
+  description: Artigos que eu escrevo
+
+posts:
+  label: posts
+  permalink: /posts
+  description: Posts que eu escrevo
+
+android:
+  label: Android
+  permalink: /android
+  description: Tudo sobre desenvolvimento de aplicativos Android, dicas e melhores práticas.
+
+compose:
+  label: Compose
+  permalink: /compose
+  description: Explorando o Jetpack Compose para interfaces modernas e reativas no Android.
+
+xml:
+  label: XML
+  permalink: /xml
+  description: Tutoriais e dicas sobre como usar XML para desenvolvimento Android, como layouts e recursos.
+
+kotlin:
+  label: Kotlin
+  permalink: /kotlin
+  description: Desbloqueando o poder do Kotlin para desenvolvedores Android com guias, truques e melhores práticas.
+
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: Artigos sobre Node.js, incluindo desenvolvimento de APIs e integração com Android.
+
+ui-ux:
+  label: UI/UX
+  permalink: /ui-ux
+  description: Melhores práticas e design para uma ótima experiência do usuário em aplicativos.
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: Técnicas para otimizar o desempenho de aplicativos Android.
+
+security:
+  label: Segurança
+  permalink: /security
+  description: Protegendo dados e usuários, dicas de segurança para desenvolvedores Android.
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: Desenvolvimento de scripts e funcionalidades extras para integrações Android e backend.

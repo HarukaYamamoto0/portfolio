@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2020"
+    ],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@site/*": [
+        "./*"
+      ],
+      "@theme/*": [
+        ".docusaurus/theme/*"
+      ],
+      "@docusaurus/*": [
+        ".docusaurus/*"
+      ]
+    },
+    "types": [
+      "@docusaurus/module-type-aliases",
+      "@docusaurus/theme-classic"
+    ]
+  },
+  "include": [
+    "src",
+    "docusaurus.config.ts",
+    ".docusaurus/**/*.ts",
+    ".docusaurus/**/*.tsx",
+    ".docusaurus/**/*.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

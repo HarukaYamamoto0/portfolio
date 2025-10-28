@@ -1,0 +1,172 @@
+[
+  {
+    "name": "tabnews-app",
+    "description": "The TabNews App is a mobile client designed to bring the TabNews experience to your smartphone. While remaining faithful to the original design, the app incorporates specific adaptations to improve usability on smaller screens.",
+    "url": "https://github.com/HarukaYamamoto0/tabnews-app",
+    "stars": 4,
+    "language": "Kotlin",
+    "topics": [
+      "felipe-deschamps",
+      "jetpack-compose",
+      "kotlin-android",
+      "portfolio",
+      "study-project",
+      "tabnews"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "alcyone",
+    "description": "Alcyone is a Discord bot designed to be as complete, stable, and customizable as possible—offering automation, moderation, and fun in an integrated and reliable way.",
+    "url": "https://github.com/HarukaYamamoto0/alcyone",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "alcyone",
+      "bot",
+      "discord",
+      "portfolio",
+      "typescript"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "cemigtimer",
+    "description": "Cemig Timer: A business timer designed to ensure efficiency in the Cemig sector, helping with time management and fast service.",
+    "url": "https://github.com/HarukaYamamoto0/cemigtimer",
+    "stars": 1,
+    "language": "JavaScript",
+    "topics": [
+      "call-center",
+      "cemig",
+      "clock",
+      "css",
+      "electron",
+      "html",
+      "portfolio"
+    ],
+    "updated": "2025-01-22"
+  },
+  {
+    "name": "CryptoTracker",
+    "description": "CryptoTracker is an Android app for real-time cryptocurrency tracking, built with a focus on best architectural practices and inspired by Philipp Lackner's course, \"The Best Practice Guide to Android Architecture.\"",
+    "url": "https://github.com/HarukaYamamoto0/CryptoTracker",
+    "stars": 1,
+    "language": "Java",
+    "topics": [
+      "canvas",
+      "graph",
+      "jetpack-compose",
+      "portfolio"
+    ],
+    "updated": "2025-01-20"
+  },
+  {
+    "name": "jsonforenv",
+    "description": "jsonforenv is a simple tool that simplifies the configuration of environment variables. With it, you can easily load environment variables from a JSON configuration file, making your application configuration more organized and flexible.",
+    "url": "https://github.com/HarukaYamamoto0/jsonforenv",
+    "stars": 1,
+    "language": "JavaScript",
+    "topics": [
+      "dotenv",
+      "env",
+      "jsonforenv",
+      "portfolio"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "Linko",
+    "description": "Linko is an Android app built with Jetpack Compose that lets you shorten, manage, and share links quickly and easily.",
+    "url": "https://github.com/HarukaYamamoto0/Linko",
+    "stars": 1,
+    "language": "Kotlin",
+    "topics": [
+      "app",
+      "compose",
+      "kotlin",
+      "mobile",
+      "portfolio",
+      "url-shortener"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "Luminit",
+    "description": "Luminit is a lightweight and intuitive Electron application for managing monitor brightness on xrandr-powered systems. I made it simple and user-friendly to control your monitor's brightness levels.",
+    "url": "https://github.com/HarukaYamamoto0/Luminit",
+    "stars": 1,
+    "language": "JavaScript",
+    "topics": [
+      "brightness-control",
+      "electron",
+      "portfolio",
+      "tray-menu"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "open-in",
+    "description": "A lightweight Nemo extension that adds context menu actions to open folders or the current directory directly in Visual Studio Code",
+    "url": "https://github.com/HarukaYamamoto0/open-in",
+    "stars": 1,
+    "language": "Makefile",
+    "topics": [
+      "debian",
+      "extensions",
+      "linux",
+      "linux-mint",
+      "nemo",
+      "nemo-actions",
+      "portfolio",
+      "utility",
+      "vscode"
+    ],
+    "updated": "2025-10-22"
+  },
+  {
+    "name": "solid-typescript",
+    "description": "This project is a API using Node.js, TypeScript, and SOLID principles, based on Rocketseat's Code/Drops #44.",
+    "url": "https://github.com/HarukaYamamoto0/solid-typescript",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "codedrops",
+      "nodejs",
+      "portfolio",
+      "rocketseat",
+      "solid",
+      "typescript"
+    ],
+    "updated": "2025-10-17"
+  },
+  {
+    "name": "timestamp-converter",
+    "description": "The Timestamp Generator and Converter simplifies the task of handling timestamps by providing an intuitive interface for both generating current timestamps and converting them into readable dates.",
+    "url": "https://github.com/HarukaYamamoto0/timestamp-converter",
+    "stars": 1,
+    "language": "HTML",
+    "topics": [
+      "portfolio",
+      "simplistic",
+      "timestamp-convert",
+      "timestamps"
+    ],
+    "updated": "2025-10-28"
+  },
+  {
+    "name": "vintage-sticks",
+    "description": "VintageSticks is a simple content mod for Vintage Story that adds crafting recipes to create sticks directly from wood. Surprisingly, the base game lacks a straightforward method to craft this fundamental item",
+    "url": "https://github.com/HarukaYamamoto0/vintage-sticks",
+    "stars": 1,
+    "language": "Unknown",
+    "topics": [
+      "csharp",
+      "mod",
+      "portfolio",
+      "vintage-story",
+      "vintagestory"
+    ],
+    "updated": "2025-10-28"
+  }
+]
