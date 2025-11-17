@@ -49,20 +49,20 @@ Before implementing the class, let’s prepare the environment.
 Create a new layout named `fragment_example.xml`:
 
 ```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical" >
+
+<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Example"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment Example"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
 
 </LinearLayout>
 ```
@@ -70,17 +70,17 @@ Create a new layout named `fragment_example.xml`:
 Now, define where the fragment will appear in your main layout (`activity_main.xml`) using `FragmentContainerView`:
 
 ```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+
+<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
 </LinearLayout>
 ```
@@ -138,18 +138,18 @@ via XML or programmatically.
 To attach it directly in XML, use the `android:name` attribute to specify the fragment’s path — in this example, `com.example.example.ExampleFragment`:
 
 ```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+
+<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container"
-        android:name="com.example.example.ExampleFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+            android:id="@+id/fragment_container"
+            android:name="com.example.example.ExampleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
 </LinearLayout>
 ```
@@ -192,7 +192,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Fragments are key components for creating **reusable and robust interfaces** in Android development.
+Fragments are key parts for creating **reusable and robust interfaces** in Android development.
 Experiment, improve your skills, and start building dynamic UIs! 🚀👩‍💻👨‍💻
 
 I hope this guide adds a little bit of magic to your Android development journey.

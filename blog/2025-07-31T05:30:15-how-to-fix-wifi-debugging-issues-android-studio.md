@@ -20,7 +20,7 @@ How many times have you gone through this frustrating situation?
 4. Then you lose the connection and have to repeat the entire process
 5. Or sometimes the QR code simply refuses to work
 
-WiFi debugging in Android Studio, when properly configured, offers a **smoother and more productive** development experience.  
+Wi-Fi debugging in Android Studio, when properly configured, offers a **smoother and more productive** development experience.  
 The key is understanding the difference between pairing and debugging ports, and using the `adb pair` command to create a **persistent trust link** between your device and your computer.
 
 Following this guide, you’ll never need to scan QR codes again or deal with unstable connections.  
@@ -36,7 +36,7 @@ Before you start, make sure that:
 
 - **Android Studio** is installed and ADB is properly configured
 - **Developer options** are enabled on your device [^1]
-- Your computer and device are on the **same WiFi network**
+- Your computer and device are on the **same Wi-Fi network**
 - Your phone has a **static IP address** configured [^2]
 
 ### Step 1: Enable Wireless Debugging
@@ -122,7 +122,7 @@ This trust relationship is persistent and doesn’t need to be repeated every ti
 After the first pairing, Android Studio can:
 
 - Automatically detect the device on the network
-- Reconnect without manual input
+- Reconnect without a manual input
 - Keep the connection much more stable
 
 ## Benefits of WiFi Debugging

@@ -72,7 +72,7 @@ module.exports = {
   config: {
     catppuccinTheme: "Macchiato", // <===== Add this
     ...
-  }
+  },
   ...
 }
 ```
@@ -182,7 +182,7 @@ module.exports = {
   config: {
     fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     ...
-  }
+  },
   ...
 }
 ```

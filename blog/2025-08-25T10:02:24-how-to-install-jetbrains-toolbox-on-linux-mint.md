@@ -50,7 +50,7 @@ Here’s what happens the first time you run it:
 
 - It creates internal folders in `~/.local/share/JetBrains/Toolbox/`
 - It automatically generates a `.desktop` shortcut in `~/.local/share/applications`
-- From then on, **JetBrains Toolbox appears in your system menu** (Mint Menu / Applications Menu)
+- From then on, **JetBrains Toolbox appears in your system menu** (Mint Menu / Application Menu)
 
 ## 3. Updates
 
@@ -62,4 +62,4 @@ so it doesn’t require root privileges or system-wide installation.
 
 Once installed, it takes care of everything — shortcuts, updates, and maintenance.
 
-> Install it once, and forget about it.
+> Install it at once and forget about it.

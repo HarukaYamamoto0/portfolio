@@ -30,23 +30,23 @@ For those unfamiliar, **GRUB** is a boot manager that comes by default with most
 It’s essential if you use **dual boot** — that’s when you run more than one operating system (like Linux and Windows) on the same computer.
 
 If you’re dual-booting without a boot manager, switching systems can be a nightmare — you’d have to open your BIOS every time and manually change the boot order.  
-With GRUB (or any boot manager), you can visually select which OS to start, no BIOS trips required.
+With GRUB (or any boot manager), you can visually select which OS to start; no BIOS trips are required.
 
 ## Why Customize GRUB?
 
 - 🎨 **Pure aesthetics** – Who said dual boot has to be ugly?
-- 🔍 **Visual clarity** – Easily identify each OS at a glance [^1]
+- 🔍 **Visual clarity** – identify each OS at a glance [^1]
 - 🚀 **Style points** – Because a slick boot screen says _“this machine belongs to someone serious”_
 
 ## Downloading a Theme
 
-Enough theory — let’s jump to the fun part: finding a theme you like.  
+Enough theories — let’s jump to the fun part: finding a theme you like.  
 Head to the **GNOME-Look GRUB Themes section**:
 
 👉 [GNOME-Look — GRUB Themes](https://www.gnome-look.org/browse?cat=109&ord=rating)
 
 That site has tons of GRUB themes.  
-My personal favorite is this one: [Star Rail Theme](https://www.gnome-look.org/p/2076542), which includes multiple sub-themes — I’m currently using the **Anaxa** version.
+My personal favorite is this one: [Star Rail Theme](https://www.gnome-look.org/p/2076542), which includes multiple subthemes — I’m currently using the **Anaxa** version.
 
 ## Installing the Theme
 
@@ -143,7 +143,7 @@ Restart your computer, and voilà — your new stylish GRUB should appear:
 
 ### Edit Note
 
-I forgot to mention — **Ventoy** also uses GRUB under the hood,
+I forgot to mention it — **Ventoy** also uses GRUB under the hood,
 so it’s totally possible to theme it too.
 Maybe I’ll cover that in a future post.
 Oh, and I’ll probably update the Star Rail theme link to the GitHub version later.

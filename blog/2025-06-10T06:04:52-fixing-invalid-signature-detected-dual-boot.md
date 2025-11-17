@@ -42,7 +42,7 @@ It’s quick and painless.
 ### 🧩 Step 0 — Temporarily Disable Secure Boot
 
 Yeah, sounds ironic, but you need to **turn Secure Boot off** for now.  
-If it stays on, GRUB won’t load and you can’t fix anything.
+If it stays on, GRUB won’t load, and you can’t fix anything.
 
 ### Step 1 — Update Your System
 
@@ -77,7 +77,7 @@ GRUB will now load without any complaints.
 
 - **`grub-efi-amd64-signed`** → the “officially signed” GRUB, recognized by the firmware
 - **`shim-signed`** → acts like a translator: the system trusts it, and it trusts GRUB
-- Reinstalling ensures proper configuration for UEFI + Secure Boot mode
+- Reinstalling ensures the proper configuration for UEFI + Secure Boot mode
 
 ## The Result
 

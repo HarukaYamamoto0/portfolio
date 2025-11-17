@@ -18,7 +18,7 @@ The most common examples are lists, stacks, queues, trees, and graphs. In the ex
 
 ### Lists
 
-A list is a collection of values organized in an ordered sequence. In JavaScript, a list is an `Array`. An array is a very useful data structure when you need to store and manage a collection of items in an ordered way. It offers many useful operations to manipulate these items, such as adding or removing elements, searching for a specific item, etc.
+A list is a collection of values organized in an ordered sequence. In JavaScript, a list is an `Array`. An array is an invaluable data structure when you need to store and manage a collection of items in an ordered way. It offers many useful operations to manipulate these items, such as adding or removing elements, searching for a specific item, etc.
 
 ![List](https://imgur.com/uYk6IKs.png)
 
@@ -160,7 +160,7 @@ tree.root = root;
 ### Graphs
 
 A graph in data structures is composed of vertices (also known as nodes) and edges. Each vertex can have a set of edges that connect it to other vertices. The edges can be _directed_ (meaning they have a direction) or _undirected_ (meaning they don’t).
-Graphs are used to represent relationships between elements in a dataset and are useful for solving shortest path problems, representing networks, and modeling complex systems.
+Graphs are used to represent relationships between elements in a dataset and are useful for solving the shortest path problems, representing networks, and modeling complex systems.
 [See more](https://medium.com/@rsorage/grafos-introdu%C3%A7%C3%A3o-de-forma-f%C3%A1cil-a4959821e101)
 
 ![Graphs](https://imgur.com/1Vr0DrZ.png)
@@ -197,7 +197,7 @@ graph.addEdge(node2, node3);
 
 In this example, we have a `Graph` class that represents the entire graph. The graph has an array of nodes and an array of edges. We added three nodes to the graph and two edges connecting them, resulting in the following structure:
 
-```js
+```
 A -- B -- C
 ```
 
@@ -234,7 +234,7 @@ graph.addEdge(node2, node3);
 In this example, we have a `DirectedGraph` class representing a directed graph. It’s the same as the previous example, except that the edges are directed — meaning they have a defined direction.
 This gives us the following structure:
 
-```js
+```
 A -> B -> C
 ```
 
