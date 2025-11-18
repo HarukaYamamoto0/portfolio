@@ -2,13 +2,18 @@ import {themes as prismThemes} from "prism-react-renderer";
 import type {Config} from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const siteName = "Haruka Dev";
+const siteUrl = "https://harukadev.com";
+const siteDescription =
+    "Android & backend developer. Kotlin, Jetpack Compose, Ktor/Node.js. Articles about code, architecture, and real-world projects.";
+
 const config: Config = {
-    title: "harukadev",
-    tagline: "Why commit suicide when you can program?",
+    title: siteName,
+    tagline: "Android & backend developer — Kotlin, Compose & Ktor/Node.js",
     favicon: "/img/cube.svg",
 
     future: {v4: true},
-    url: "https://harukadev.com",
+    url: siteUrl,
     baseUrl: "/",
 
     organizationName: "HarukaYamamoto0",
@@ -38,14 +43,14 @@ const config: Config = {
                     onInlineAuthors: "warn",
                     onUntruncatedBlogPosts: "warn",
 
-                    blogTitle: "Oh My Blog",
+                    blogTitle: "Oh My Blog — Android & Backend",
                     blogDescription:
-                        "All my articles that I've ever created are here. I wish I had a library...",
+                        "Technical articles about Android, Kotlin, Jetpack Compose, Ktor, Node.js, architecture and backend development.",
                     postsPerPage: 10,
                     feedOptions: {
-                        title: "Oh My Blog",
+                        title: "Oh My Blog — Android & Backend",
                         description:
-                            "All my articles that I've ever created are here. I wish I had a library...",
+                            "RSS feed of articles about Android, Kotlin, Jetpack Compose, Ktor, Node.js, architecture and backend development.",
                         xslt: true,
                         type: "all",
                         copyright: `© ${new Date().getFullYear()} HarukaYamamoto0 — crafted with caffeine & code.`,
@@ -53,6 +58,12 @@ const config: Config = {
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
+                },
+                sitemap: {
+                    changefreq: "weekly",
+                    priority: 0.7,
+                    ignorePatterns: ["/tags/**"],
+                    filename: "sitemap.xml",
                 },
             } satisfies Preset.Options,
         ],
@@ -87,6 +98,7 @@ const config: Config = {
                 },
             ],
         },
+
         headTags: [
             {
                 tagName: "link",
@@ -183,18 +195,38 @@ const config: Config = {
             additionalLanguages: ["kotlin", "bash", "json", "bash"],
         },
 
-        // Social sharing **/
-        image: "img/og-image.png",
+        // Social sharing (Open Graph default image)
+        image: "/img/og-image.png",
 
-        // Meta-aesthetic — gradients and glow
         metadata: [
             {name: "theme-color", content: "#0a0a0a"},
+            {name: "description", content: siteDescription},
+            {
+                name: "keywords",
+                content:
+                    "Android developer, backend developer, Kotlin, Jetpack Compose, Ktor, Node.js, REST APIs, clean architecture, software engineering blog",
+            },
+            {name: "author", content: "HarukaYamamoto0"},
+            // Open Graph
+            {property: "og:site_name", content: siteName},
+            {property: "og:type", content: "website"},
+            {property: "og:title", content: `${siteName} — Android & Backend`},
+            {property: "og:description", content: siteDescription},
+            {property: "og:url", content: siteUrl},
+            {property: "og:image", content: `${siteUrl}/img/og-image.png`},
+            // Twitter
             {name: "twitter:card", content: "summary_large_image"},
-            {name: "twitter:title", content: "HarukaYamamoto0 — Android & Backend"},
+            {
+                name: "twitter:title",
+                content: `${siteName} — Android & Backend`,
+            },
             {
                 name: "twitter:description",
-                content: "Kotlin, Compose, and backend alchemy.",
+                content: siteDescription,
             },
+            {name: "twitter:image", content: `${siteUrl}/img/og-image.png`},
+            {name: "twitter:creator", content: "@HarukaYamamoto0"},
+            {name: "twitter:site", content: "@HarukaYamamoto0"},
         ],
     } satisfies Preset.ThemeConfig,
 };
