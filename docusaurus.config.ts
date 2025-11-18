@@ -2,7 +2,7 @@ import {themes as prismThemes} from "prism-react-renderer";
 import type {Config} from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-const siteName = "Haruka Dev";
+const siteName = "HarukaYamamoto0";
 const siteUrl = "https://harukadev.com";
 const siteDescription =
     "Android & backend developer. Kotlin, Jetpack Compose, Ktor/Node.js. Articles about code, architecture, and real-world projects.";
