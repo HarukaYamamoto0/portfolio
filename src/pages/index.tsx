@@ -26,7 +26,7 @@ export default function Home(): ReactNode {
 
   return (
     <Layout
-      title="Haruka Dev — Android & Backend"
+      title="Oh My Site — Android & Backend"
       description="Android & backend developer. Kotlin, Jetpack Compose, Ktor/Node.js. Writing about code, architecture, and shipping small monsters to prod."
     >
       {/* HERO */}
@@ -146,7 +146,7 @@ export default function Home(): ReactNode {
             <article className={styles.project}>
               <div className={styles.projectMeta}>Backend • Ktor</div>
 
-              <h3 className={styles.projectTitle}>Tabnews App</h3>
+              <h3 className={styles.projectTitle}>TabNews App</h3>
 
               <p className={styles.projectDesc}>
                 A faithful TabNews client built with Kotlin Multiplatform and
